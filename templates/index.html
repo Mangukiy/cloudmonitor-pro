@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudMonitor Pro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>CloudMonitor Pro</h1>
+        <p>Real-Time Monitoring & CI/CD for Your Applications</p>
+    </header>
+    <section class="card-container">
+        <div class="card">
+            <img src="{{ url_for('static', filename='deploy.svg') }}" alt="Deploy">
+            <h2>CI/CD Automation</h2>
+            <p>Streamlined builds & deployment using Jenkins & Docker.</p>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='monitor.svg') }}" alt="Monitor">
+            <h2>Live Monitoring</h2>
+            <p>Prometheus + Grafana for actionable metrics and alerts.</p>
+        </div>
+    </section>
+    <footer>© 2025 CloudMonitor Pro – Powered by Flask & DevOps Stack</footer>
+</body>
+</html>
