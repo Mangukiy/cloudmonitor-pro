@@ -1,0 +1,47 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# ===== Terraform =====
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+.terraform/
+
+# ===== Secrets / Keys =====
+.env
+*.pem
+
+# ===== Jenkins =====
+jenkins_home/
+
+# ===== Logs / Temp Files =====
+*.log
+*.tmp
+*.swp
+
+# ===== Docker / Misc =====
+*.bak
+.dockerignore
+
+# ===== IDEs / OS Files =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ===== Flask (if used) =====
+instance/
+*.sqlite3
+
+# ===== Test coverage =====
+coverage/
+*.cover
+*.py,cover
